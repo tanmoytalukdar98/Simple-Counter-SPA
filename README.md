@@ -1,16 +1,99 @@
-# React + Vite
+# Single Page Application (SPA) – React + Vite (Structured Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a structured **Single Page Application (SPA)** built using **React and Vite** to demonstrate core React concepts with a clean, scalable folder architecture.
 
-Currently, two official plugins are available:
+The app contains four experiments, each separated into its own component:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Counter
+2. To-Do List
+3. Theme Toggle
+4. Simple Form
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📁 Project Structure
 
-## Expanding the ESLint configuration
+```
+my-spa-app/
+ ├── public/
+ ├── src/
+ │   ├── components/
+ │   │   ├── Counter.jsx
+ │   │   ├── Todo.jsx
+ │   │   ├── ThemeToggle.jsx
+ │   │   └── SimpleForm.jsx
+ │   ├── styles/
+ │   │   └── App.css
+ │   ├── App.jsx
+ │   └── main.jsx
+ ├── index.html
+ ├── package.json
+ └── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+### Counter Component
+
+* Increase and decrease a number
+* Uses `useState` and event handling
+
+### To-Do Component
+
+* Add tasks to a list
+* Uses array state and controlled inputs
+
+### Theme Toggle Component
+
+* Switch between light and dark mode
+* Uses boolean state and conditional styling
+
+### Simple Form Component
+
+* Enter a name and display it live
+* Uses form handling with state
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* JavaScript
+* HTML & CSS
+
+---
+
+## 🚀 How to Run the Project
+
+```bash
+npm install
+npm run dev
+```
+
+Open the shown URL in your browser.
+
+---
+
+## 🧠 Learning Outcomes
+
+* Understanding SPA architecture
+* Component based design in React
+* Using `useState` hook
+* Handling events and forms
+* Organizing a real world React project
+
+---
+
+## 📜 License
+
+Educational use only
+
+---
+
+## 👨‍💻 Author
+
+Tanmoy Talukdar
+CSE (AIML) Engineering Student
